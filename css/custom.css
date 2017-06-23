@@ -1,0 +1,154 @@
+@font-face {
+	font-family:"Prota Basic";
+	src: url('prota/ProtaBasic.otf');
+}
+html {
+	height:100%;
+}
+.hero-text {
+	text-align: center;
+	margin-top:45%;
+}
+#hero {
+	background-color:#282D31;
+	max-width:100%;
+	width:100%;
+	height:100%;
+}
+
+#about-me {
+	min-height:100%;
+	background-color:#F2f2f2;
+	width:100%;
+	max-width:100%;
+}
+.about-me {
+	width:100%;
+}
+
+
+.name {
+	font-size:3em;
+	color:#FFFF99;
+}
+
+.desc {
+	font-size:.8em;
+}
+
+.custom-body {
+	color:#F2F2F2;
+	height:100%;
+	font-family:"Prota Basic";
+
+}
+
+.custom-link {
+	color:#FFFF99;
+}
+.custom-link:hover{
+	color:#F2F2F2;
+}
+.logo {
+	height:4.5em;
+	width:4.5em;
+	position:absolute;
+	top:1em;
+	left:1em;
+}
+.circle {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius:50%;
+	background:#FFFF99;
+}
+.arrow {
+ 	width:1.8em;
+ 	height: 1em;
+ 	margin-top: 17px;
+
+}
+.pan-down {
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+}
+
+
+
+/*Navegation Bar*/
+.navbar {
+	display: none;
+}
+
+@media (min-width: 750px) {
+  .navbar {
+    border-top-width: 0; }
+  .navbar, .navbar-spacer {
+    display: block;
+    width: 100%;
+    margin-top:4.5%;
+    margin-left:-4.5%;
+    height: 6.5rem;
+    z-index: 99; }
+  .navbar-spacer {
+    display: none; }
+  .navbar > .container {
+    width: 100%; }
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0; }
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem; }
+  .navbar-link:hover {}
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
+
+  .logo {
+  	position:relative;
+	height:5em;
+	width:5em;
+	display:block;
+	top:0px;
+	left:0px;
+	margin-top:80%;
+	margin-left:80%;}
+ .name {
+	font-size:5em; }
+
+  .desc {
+	font-size:1.2em;}
+
+  .hero-text {
+	margin-top:10%;}
+
+ }
+@media (min-width:1440px) {
+	.navbar {
+		position:absoute;
+		margin-left:-21%;
+	}
+}
+/* Larger than phone */
+@media (min-width: 550px) {
+
+}
