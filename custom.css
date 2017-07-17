@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Christopherhand";
+    src:url('fonts/comesinhandy.ttf');
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url('fonts/AvenirLTStd-Book.otf');
+}
+.spec-font {
+    font-family: "Christopherhand";
+}
+
+body {
+    font-family: "Avenir"
+}
