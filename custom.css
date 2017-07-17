@@ -1,3 +1,9 @@
+/*
+Green: 3FC6C2 
+Orange: FFAC5C
+Red F5625B
+*/
+
 @font-face{
     font-family: "Christopherhand";
     src:url('fonts/comesinhandy.ttf');
@@ -13,4 +19,20 @@
 
 body {
     font-family: "Avenir"
+}
+.nav-link {
+    font-size:20px;
+    padding-left:60px !important;
+    padding-right:60px !important; 
+}
+
+.my-green {
+    color: #3FC6C2;
+}
+
+.my-orange {
+    color: #FFAC5C;
+}
+.my-red {
+    color: #F5625B;
 }
