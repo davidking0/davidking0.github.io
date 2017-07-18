@@ -36,3 +36,12 @@ body {
 .my-red {
     color: #F5625B;
 }
+/*
+@media (max-width: 420px){
+
+#desc {
+    font-size: 40px;}
+#name-text {
+    font-size: 100px;
+    line-height:100px;}
+}*/

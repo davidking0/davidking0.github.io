@@ -1,8 +1,46 @@
 /*-----------------------------------------------------------------------------------
 	    me
-        Built with Blocs
 -----------------------------------------------------------------------------------*/
+/*
+Green: 3FC6C2 
+Orange: FFAC5C
+Red F5625B
+*/
 
+@font-face{
+    font-family: "Christopherhand";
+    src:url('fonts/comesinhandy.ttf');
+}
+
+@font-face{
+    font-family:"Avenir";
+    src:url('fonts/AvenirLTStd-Book.otf');
+}
+.spec-font {
+    font-family: "Christopherhand";
+}
+
+body {
+    font-family: "Avenir"
+}
+.nav-link {
+    font-size:20px;
+    padding-left:60px !important;
+    padding-right:60px !important; 
+}
+
+.my-green {
+    color: #3FC6C2;
+}
+
+.my-orange {
+    color: #FFAC5C;
+}
+.my-red {
+    color: #F5625B;
+}
+/*
+/**/
 body{
 	margin:0;
 	padding:0;
@@ -38,7 +76,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 
 /* Sizes */
-
+.bloc-xl{
+	padding:150px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -196,19 +236,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-1 h1{
 	font-size: 200px;
-	line-height: 400px;
 }
 #bloc-2 h2{
-	font-size: 100px;
-}
-#contact-1 p{
 	font-size: 70px;
 }
 #bloc-7 h1{
 	font-size: 200px;
 }
-#contact p{
-	font-size: 30px;
+.about-desc {
+	font-size: 20px;
+}
+.resume-desc {
+	font-size: 16px;
 }
 #bloc-15 p{
 	font-size: 70px;
@@ -490,7 +529,13 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+}
+.contact a {
+	color:white;
+	text-decoration: underline;
+}
+.contact a:hover {
+	color:black;
 }
 .container{
 	max-width:1170px;
@@ -730,12 +775,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
  #bloc-1 h1{
 	font-size: 100px;
-	line-height: ;
+	line-height:100px;
 }
 #bloc-2 h2{
-	font-size: 80px;
+	font-size: 40px;
 }
-#contact-1 p{
+#bloc-15 p{
 	font-size: 40px;
 }
 #bloc-7 h1{
