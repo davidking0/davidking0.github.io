@@ -246,6 +246,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .about-desc {
 	font-size: 20px;
 }
+.project-desc {
+	font-size: 16px;
+}
 .resume-desc {
 	font-size: 16px;
 }
@@ -531,11 +534,11 @@ iframe{
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .contact a {
-	color:white;
+	color:white!important;
 	text-decoration: underline;
 }
 .contact a:hover {
-	color:black;
+	color:#d3d3d3!important;
 }
 .container{
 	max-width:1170px;
@@ -572,6 +575,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-pastel-red{
 	background-color:#F5625B;
 }
+.bgc-sandy-brown{
+	background-color:#FFAC5C;
+}
 /* Text colour styles */
 
 .tc-dark-jungle-green{
@@ -583,6 +589,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-pastel-red{
 	color:#F5625B!important;
 }
+.tc-sandy-brown{
+	color:#FFAC5C!important;
+}
 /* Button colour styles */
 
 .btn-sandy-brown{
@@ -590,6 +599,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(0,0,0,.5)!important;
 }
 .btn-sandy-brown:hover{
+	background:#cc8a4a;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-white{
+	background:#fff;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-white:hover{
 	background:#cc8a4a;
 	color:rgba(0,0,0,.5)!important;
 }
@@ -773,7 +790,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.bloc-mob-center-text{
 	text-align:center;
 }
- #bloc-1 h1{
+ #bloc-1 h1, #bloc-16 h1{
 	font-size: 100px;
 	line-height:100px;
 }
@@ -781,6 +798,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size: 40px;
 }
 #bloc-15 p{
+	font-size: 40px;
+}
+#bloc-25 p{
 	font-size: 40px;
 }
 #bloc-7 h1{
