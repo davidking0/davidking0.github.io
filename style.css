@@ -261,6 +261,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-25 p{
 	font-size: 70px;
 }
+#bloc-27 h1{
+	font-size: 200px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -533,11 +536,18 @@ iframe{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
-.contact a {
+.contact-1 a {
 	color:white!important;
 	text-decoration: underline;
 }
-.contact a:hover {
+.contact-1 a:hover {
+	color:#d3d3d3!important;
+}
+.contact-2 a {
+	color:#FFAC5C!important;
+	text-decoration: underline;
+}
+.contact-2 a:hover {
 	color:#d3d3d3!important;
 }
 .container{
@@ -591,6 +601,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-sandy-brown{
 	color:#FFAC5C!important;
+}
+.tc-medium-turquoise{
+	color:#3FC6C2;
 }
 /* Button colour styles */
 
@@ -804,6 +817,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size: 40px;
 }
 #bloc-7 h1{
+	font-size: 100px;
+}
+#bloc-27 h1{
 	font-size: 100px;
 }
 /* = Text Mobile Alignment Classes
