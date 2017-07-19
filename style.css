@@ -822,8 +822,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 #bloc-27 h1{
 	font-size: 100px;
 }
-.img-nav {
-	width:225px!important;
+.img-resize {
+	width:250px!important;
 }
 /* = Text Mobile Alignment Classes
 -------------------------------------------------------------- */
