@@ -92,7 +92,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-1 h1{
 	font-family: Lato;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 110px;
 }
 #bloc-1 h2{
 	font-family: Lato;
@@ -401,7 +401,6 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
 }
 .container{
 	max-width:1170px;
@@ -434,10 +433,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:20px;
 	margin-bottom:20px;
 }
-.menu-links{
+.menu-link {
+	padding-right: 20px;
+}
+.menu-link a{
 	font-family:"Lato";
+	color:#242425!important;
 	font-weight:300;
 	font-size:22px;
+}
+.menu-link a:hover{
+	color:#1d1d1e!important;
+}
+.important {
+	color:#F5625B!important;
+}
+#resume-link {
+	color:#F5625B!important;
+	text-decoration: underline;
+
 }
 
 /* = Colour
@@ -805,8 +819,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.big-text{
 	margin-bottom:30px;
 }
- #about p{
+	#about p{
 	font-size: 22px;
 }
+	.menu-link a{
+		font-size:50px!important;
+	}
+	.menu-link {
+		margin-top:40px!important;
+		padding-left: ;
+	}
+	#about-link {
+		color:#F5625B!important;
+	}
+	#project-link {
+		color:#FFAC5C!important;
+	}
+	#contact-link {
+		color:#5BD6F5!important;
+	}
+	#bloc-1 h1{
+	font-size:55px;
+	}
+	#me-pic {
+		height:200px;
+		width:200px;
+	}
 }
 

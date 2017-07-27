@@ -27,7 +27,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc" id="bloc-0">
+<div  class="bloc bgc-white l-bloc" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -35,16 +35,16 @@
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 nav-special fullscreen-nav open-right">
-				<ul class="site-navigation nav navbar-nav menu-links ">
-					<li>
-						<a href="#about" class="ltc-dark-jungle-green menu-link">about me</a>
+			<div class="collapse navbar-collapse navbar-1 nav-special fullscreen-nav">
+				<ul class="site-navigation nav navbar-nav ">
+					<li class='menu-link'>
+						<a href="#about" id="about-link">about me</a>
 					</li>
-					<li>
-						<a href="#projects" class="ltc-dark-jungle-green menu-link">projects</a>
+					<li class='menu-link'>
+						<a href="#projects" id="project-link">projects</a>
 					</li>
-					<li>
-						<a href="#contact" class="ltc-dark-jungle-green menu-link">contact</a>
+					<li class='menu-link'>
+						<a href="#contact" id="contact-link">contact</a>
 					</li>
 				</ul>
 			</div>
@@ -80,11 +80,11 @@
 				</h2>
 				<div class="row">
 					<div class="col-sm-6">
-						<img src="img/border-pic.png" class="center-block mg-md animated fadeIn" height="300" width="300" />
+						<img id='me-pic' src="img/border-pic.png" class="center-block mg-md animated fadeIn" height="300" width="300" />
 					</div>
 					<div class="col-sm-6">
 						<p>
-							Hi! My name is David King. I&rsquo;m currently a software engineering intern at Lockheed Martin. I like to do a lot of things, especially making websites.&nbsp; <br>Have a project for me? I&rsquo;m currently available for freelance. <br>
+							Hi! My name is <span class='important'> David King</span>. I&rsquo;m currently a student at <span class='important'>Georgia Tech</span> and a software engineering intern at <span class='important'>Lockheed Martin</span>. I have a variety of interests, including <span class='important'>web design</span>, <span class='important'>data science</span>, <span class='important'>economics</span>, and <span class='important'>research</span>.&nbsp; <a href='resume.pdf' id='resume-link'>Download my resume.</a><br><br>Have a project for me? I&rsquo;m <span class='important'>currently available</span> for freelance. <br>
 						</p>
 					</div>
 				</div>
