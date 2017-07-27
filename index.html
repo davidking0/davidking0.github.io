@@ -5,21 +5,20 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <link rel="shortcut icon" type="image/png" href="favicon-2.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="./css/animate.min.css"><link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/animate.min.css"><link rel="stylesheet" href="./css/font-awesome.min.css"><link rel="stylesheet" href="./css/et-line.min.css"><link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
-
     <title>Home</title>
 
     
 <!-- Google Analytics -->
-
+ 
 <!-- Google Analytics END -->
     
 </head>
@@ -28,27 +27,27 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc l-bloc bgc-white" id="bloc-0">
-	<div class="container">
-		<nav class="navbar nav-center row">
+<div class="bloc bgc-white l-bloc" id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
 			<div class="navbar-header">
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1">
-				<ul class="site-navigation nav navbar-nav">
+			<div class="collapse navbar-collapse navbar-1 nav-special fullscreen-nav open-right">
+				<ul class="site-navigation nav navbar-nav menu-links ">
 					<li>
-						<a class='nav-link tc-dark-jungle-green' href="index.html">Home</a>
+						<a href="index.html" class="ltc-dark-jungle-green">home</a>
 					</li>
 					<li>
-						<a class='nav-link tc-dark-jungle-green' href="about-me.html">About Me</a>
+						<a href="#about" class="ltc-dark-jungle-green" id="pl-undefined">about me</a>
 					</li>
 					<li>
-						<a class='nav-link tc-dark-jungle-green' href="projects.html">Projects</a>
+						<a href="#projects" class="ltc-dark-jungle-green" id="pl-undefined">projects</a>
 					</li>
 					<li>
-						<a class='nav-link tc-dark-jungle-green' href="contact.html">Contact</a>
+						<a href="#contact" class="ltc-dark-jungle-green" id="pl-undefined">contact</a>
 					</li>
 				</ul>
 			</div>
@@ -58,118 +57,140 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc b-parallax bgc-white l-bloc" id="bloc-1">
+<div class="bloc bgc-white l-bloc" id="bloc-1">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 id='name-text' class="mg-md text-center  spec-font text-center-xs tc-dark-jungle-green">
+				<h1 class="mg-md  tc-pastel-red">
 					david king
 				</h1>
+				<h2 class="mg-md  tc-dark-jungle-green">
+					developer. data scientist. stock market enthusiast. politics nerd
+				</h2><span class="et-icon-facebook pull-left icon-pastel-red icon-md"></span><span class="et-icon-twitter pull-left icon-pastel-red icon-md"></span><span class="et-icon-linkedin pull-left icon-md icon-pastel-red"></span>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-1 END -->
 
-
-<!-- bloc-2 -->
-<div class="bloc bgc-white l-bloc" id="bloc-2">
-	<div class="container bloc-md">
+<!-- about -->
+<div class="bloc tc-dark-jungle-green bgc-white l-bloc" id="about">
+	<div class="container bloc-sm">
 		<div class="row">
-		    <div class="col-sm-12">
-				<h2 class="mg-md my-red" id="desc">
-					developer. data scientist. stock market enthusiast. politics nerd.
+			<div class="col-sm-12">
+				<h2 class=" mg-lg tc-pastel-red">
+					about me
 				</h2>
-            </div>			
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="img/border-pic.png" class="center-block mg-md animated fadeIn" height="300" width="300" />
+					</div>
+					<div class="col-sm-6">
+						<p>
+							Hi! My name is David King. I&rsquo;m currently a software engineering intern at Lockheed Martin. I like to do a lot of things, especially making websites.&nbsp; <br>Have a project for me? I&rsquo;m currently available for freelance. <br>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="img/dots.PNG" class="center-block img-responsive" height="80" width="221" />
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-2 END -->
-<!-- bloc-2 -->
-<div class="bloc bgc-white l-bloc" id="bloc-2">
-	<div class="container bloc-sm">
+<!-- about END -->
+
+<!-- projects -->
+<div class="bloc tc-dark-jungle-green bgc-white" id="projects">
+	<div class="container">
 		<div class="row">
-		    <div class="col-sm-12">
-				<h2 class="mg-md my-red" id="desc">
-    <br>
-    <br>
+			<div class="col-sm-12">
+				<h2 class=" mg-lg text-right tc-sandy-brown">
+					projects
 				</h2>
-            </div>			
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="center-block blocsapp-device blocsapp-device-mb mb-space-grey device-spacing animated fadeIn">
+							<img src="img/whatsmygrade.png" class="img-responsive" />
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<h3 class="mg-md  text-center tc-sandy-brown">
+							Grade Calculator
+						</h3>
+						<p class=" text-center">
+							My very first website. Where it all began. This grade calculator is used by hundreds of students in Physics I and II at Georgia Tech every semester.
+						</p>
+						<div class="text-center">
+							<a href="index.html" class="btn btn-lg btn-sandy-brown">Launch</a>
+						</div>
+					</div>
+				</div>
+				<div class="row voffset-lg">
+					<div class="col-sm-6">
+						<h3 class="mg-md  text-center tc-sandy-brown">
+							Be Resourceful
+						</h3>
+						<p class=" text-center">
+							This website connects students at Georgia Tech with the resources they need to be academically successful. A work in progress.
+						</p>
+						<div class="text-center">
+							<a href="index.html" class="btn btn-lg btn-sandy-brown">Launch</a>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="center-block blocsapp-device blocsapp-device-mb mb-space-grey device-spacing fadeIn">
+							<img src="img/beresourceful-comingsoon.png" class="img-responsive" />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
-<!-- bloc-2 END -->
-
-<!-- Bloc Group -->
-<div class='bloc-group'>
-
-<!-- bloc-3 -->
-<div class="bloc bgc-white bloc-tile-3 l-bloc" id="bloc-3">
-	<div class="container bloc-sm">
-		<div class="row">
+		<div class="row voffset-md">
 			<div class="col-sm-12">
-				<a href='about-me.html'>
-					<img id='about-me' style='width:300px' src="img/about-me.png" class="img-resize center-block"/>
-				</a>
+				<img src="img/dots_yellow.png" class="center-block img-responsive" height="60" width="155" />
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-3 END -->
+<!-- projects END -->
 
-<!-- bloc-4 -->
-<div class="bloc bloc-tile-3 bgc-white l-bloc" id="bloc-4">
-	<div class="container bloc-sm">
+<!-- contact -->
+<div class="bloc tc-dark-jungle-green bgc-white" id="contact">
+	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<a href='projects.html'>
-					<img id='projects' style='width:300px' src="img/projects.png" class="img-resize center-block" />
-				</a>
+				<div class="row">
+					<div class="col-sm-6">
+						<h1 class="mg-md  tc-maya-blue">
+							contact
+						</h1>
+					</div>
+					<div class="col-sm-6">
+						<h3 class="mg-md  tc-maya-blue">
+							Let&rsquo;s Talk
+						</h3>
+						<p>
+							Email: dking72@gatech.edu <br>Find me on Twitter or Linkedn
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-4 END -->
-<!-- bloc-5 -->
-<div class="bloc bloc-tile-3 bgc-white l-bloc" id="bloc-5">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<a href='contact.html'>
-					<img id='contact' style='width:300px' src="img/contact-square-1.png" class="img-resize center-block" />
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-5 END -->
-
-</div>
-<!-- Bloc Group END -->
+<!-- contact END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-26 -->
-<div class="bloc bgc-white l-bloc" id="bloc-26">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h6 class="mg-md">
-					Copyright 2017 David King
-				</h6>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-26 END -->
-
 </div>
 <!-- Main container END -->
- <script>
+    
 
-</script>
 </body>
 </html>
