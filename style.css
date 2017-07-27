@@ -102,7 +102,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #about h2{
 	font-family: Lato;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 40px;
 }
 #about p{
 	font-family: Lato;
@@ -113,7 +113,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #projects h2{
 	font-family: Lato;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 40px;
 }
 #projects h3{
 	font-family: Lato;
@@ -839,7 +839,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		color:#5BD6F5!important;
 	}
 	#bloc-1 h1{
-	font-size:55px;
+	font-size:60px;
 	}
 	#me-pic {
 		height:200px;
