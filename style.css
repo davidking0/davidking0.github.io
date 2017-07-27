@@ -414,27 +414,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .blocs-hero-btn-dwn{
 	background-color:rgba(0,0,0,0.0);
 }
-.double-space{
-	line-height:200%;
-}
-.section-text{
-	margin-bottom:50px;
-}
-.outline{
-	border-style:solid;
-	border-color:#F2B611;
-	padding:30px 30px 30px 30px;
-	border-width:2px 2px 2px 2px;
-}
-.no-outline{
-	padding:30px 30px 30px 30px;
-}
 .device-spacing{
 	margin-top:20px;
 	margin-bottom:20px;
 }
 .menu-link {
-	padding-right: 20px;
+	padding-left: 20px;
 }
 .menu-link a{
 	font-family:"Lato";
@@ -451,7 +436,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 #resume-link {
 	color:#F5625B!important;
 	text-decoration: underline;
-
+}
+.icon-spacing {
+	margin-right:20px;
+}
+.contact-link {
+	color:#5BD6F5!important;
+	text-decoration: underline;
 }
 
 /* = Colour
@@ -479,12 +470,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Button colour styles */
 
 .btn-sandy-brown{
-	background:#FFAC5C;
-	color:rgba(0,0,0,.5)!important;
+	border-color:#FFAC5C;
+	border-width: 2px;
+	color:#FFAC5C!important
 }
 .btn-sandy-brown:hover{
-	background:#cc8a4a;
-	color:rgba(0,0,0,.5)!important;
+	background:#FFAC5C;
+	color:#fff!important;
 }
 /* Link colour styles */
 
@@ -841,9 +833,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	#bloc-1 h1{
 	font-size:60px;
 	}
-	#me-pic {
+	.me-pic {
 		height:200px;
 		width:200px;
+	}
+	#facebook {
+		margin-left:10px;
 	}
 }
 
